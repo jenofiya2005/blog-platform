@@ -57,3 +57,5 @@ node start.js
 - **Frontend**: React 18, Vite, Tailwind CSS, Lucide Icons, React Router v6, Axios
 - **Backend**: Express.js, JSON Web Tokens (JWT), bcryptjs, Morgan, CORS
 - **Database & ORM**: SQLite, Prisma Client ORM
+
+Live Demo Link : https://blog-platform-xvi2.onrender.com
