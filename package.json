@@ -1,0 +1,13 @@
+﻿{
+  "name": "blog-platform-root",
+  "version": "1.0.0",
+  "description": "Full-Stack Blog Platform with Comments",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "dev": "node start.js",
+    "build": "cd client && npm install && npm run build && cd ../server && npm install && npx prisma generate && npx prisma db push && node prisma/seed.js",
+    "server": "npm start --prefix server",
+    "server:dev": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client"
+  }
+}
